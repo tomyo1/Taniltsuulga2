@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <TITLE>Tomyo</TITLE>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="sidebar ">
+        <div class="profile">
+            <img src="img1.jpeg" alt="">
+            <h3>Emujin</h3>
+            <p>Student</p>
+        </div>
+        <ul>
+            <li><a href="#"><span class="icon"><i class="bi bi-house-door-fill"></i></span><span class="items"> Home</span></a></li>
+            <li><a href="#"><span class="icon"><i class="bi bi-person-circle"></i></span><span class="items"> About</span></a></li>
+            <li><a href="#"><span class="icon"><i class="bi bi-backpack4"></i></span><span class="items"> Portfolio</span></a></li>
+            <li><a href="#"><span class="icon"><i class="bi bi-telephone"></i></span><span class="items"> Contact</span></a></li>
+            <li><a href="#"><span class="icon"><i class="bi bi-gear"></i></span><span class="items"><span class="items"></span> Settings</span></a></li>
+        </ul>
+       </div>
+       <div class="secion">
+        <div class="top navbar">
+            <a href="#" class="ham"><i class="bi bi-code-square"></i></a>
+        </div>
+       </div>
+       <div class="main">
+        <img class="firstpic" src="https://images.wallpaperscraft.com/image/single/sky_nature_river_90818_1600x900.jpg">
+       </div>
+       <div class="secion2">
+            <div class="hero">
+                <article>
+                    <h1>About Me</h1>
+                    <img class="secondpic" src="img1.jpeg">
+                    <content>
+                        Name: Emujin. 
+                        Age: 16
+                        Grade: 11 grade
+                        School: MIU school
+                    </content>
+                </article>
+            </div>
+       </div>
+       <div class="contact">
+        <h1>Contact</h1>
+        <p>Have a question or feedback? Send a message.</p>
+        
+        <form action="process_contact.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+       <div class="contact"></div>
+       <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h>LOGO</h>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us:</p>
+                <p>Email: Tomyo@gmail.com</p>
+                <p>Phone: (976) 8888-8888</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2023 Tomyo. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/tomyonoosoo/"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
